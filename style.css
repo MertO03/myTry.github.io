@@ -1,0 +1,128 @@
+body{
+    background: rgb(133, 128, 128);
+    color: white;
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: black;
+    background-image:url("images/4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    height:400px;
+    text-align: center;
+}
+
+header .logo a{
+    background-color: red;
+    background-image: url("images/5.jpg");
+    background-size:300px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    width:300px;
+    height:120px;
+    text-indent:-999999px;
+    position:relative;
+    top:-30px;
+}
+
+.feature-box div{
+    width: 100%;
+    margin: 1px;
+}
+
+.features{
+    background: gray;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure{
+    margin:auto;
+    text-align: center;
+    width:100px;
+    text-transform: uppercase;
+}
+
+.features figure img{
+    border: 1px solid pink;
+    border-radius: 50%;
+    box-shadow: white 0 0 10px;
+    width:100%;
+}
+
+section.feature-box div{
+    background: gray;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+div{
+    background: red;
+    
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    background-color: gray;
+    border-radius: 3px;
+    padding: 2px;
+    margin:0 0 0 20px;
+}
+
+footer{
+    background: black;
+    padding: 10px 20px;
+}
+
+#frank{
+    font-size: 200%;
+}
+
+li:last-child{
+    background: red;
+}
+li:first-child{
+    padding-left: 0px;
+}
+
+li:hover{
+    background-color:  red;;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+
+/*
+@media screen and (max-width: 800px) {
+    .features{
+        background: pink;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    .features{
+        background: red;
+    }
+}
+*/
